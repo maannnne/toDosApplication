@@ -1,0 +1,10 @@
+<template name="toDosTemp">
+    {{> addToDoTemp }}
+    <br>
+    <hr>
+    <ul>
+        {{#each getToDos}}
+            {{> toDoItemTemp }}
+        {{/each}}
+    </ul>
+</template>
